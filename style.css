@@ -1,0 +1,54 @@
+/* style.css */
+body {
+    background: linear-gradient(to bottom, white, skyblue);
+    font-family: Arial, sans-serif;
+    color: darkslategray;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+#story {
+    padding: 20px;
+    max-width: 90%;
+    margin: auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+#homebutton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 5px;
+}
+
+#homebutton:hover {
+    background-color: #0056b3;
+}
+#images {
+    text-align: center;
+    margin-top: 20px;
+    border-width: 10px;
+    border-radius: 8px;
+    border-color: skyblue;
+    border-style: solid;
+}
+
+.decorative-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
