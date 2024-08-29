@@ -37,20 +37,11 @@ h1 {
 #homebutton:hover {
     background-color: #0056b3;
 }
-#images {
-    text-align: center;
-    margin-top: 20px;
-    border-width: 10px;
-    border-radius: 8px;
-    border-color: skyblue;
-    border-style: solid;
-}
-
 .decorative-image {
     width: 100%;
-    max-width: 100%;
     height: auto;
-    margin: 10px 0;
+    border: 2px solid #000; /* Add a border to the decorative image */
+    border-radius: 20px;;
 }
 footer {
     font-size: 10px; /* Adjust the size as needed */
